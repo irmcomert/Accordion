@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" >
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+    <title>Anasayfa</title>
+
+</head>
+<body>
+  
+<div class="accordion">
+    <div class="accordionBx">
+       <div class="label ">List One  </div>
+        <div class="content">
+      Et nulla, velit perferendis adipisci quam optio, provident eaque voluptate minima consequuntur aliquam temporibus sunt placeat soluta autem sit saepe qui cumque quis! Dignissimos illo dolorem porro facere eum suscipit iusto aliquid perferendis? Quisquam, dolores nostrum voluptatum eligendi dolorem rem natus earum repudiandae eveniet consequuntur?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit, consequuntur, sapiente blanditiis, voluptates fugit exercitationem ipsum dolorem ipsam delectus voluptate laudantium voluptatibus hic dolor distinctio in. Sequi quam praesentium pariatur?
+        </div>
+    </div>
+
+    <div class="accordionBx">
+        <div class="label ">List Two</div>
+         <div class="content">
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime excepturi blanditiis hic placeat harum ad exercitationem totam natus perferendis sint dignissimos cum vero, architecto nemo voluptatum dolore tempore reprehenderit aliquid tenetur eligendi, dolorem repudiandae asperiores. 
+         </div>
+     </div>
+
+     <div class="accordionBx">
+        <div class="label ">List Three  </div>
+         <div class="content">
+         Dignissimos illo dolorem porro facere eum suscipit iusto aliquid perferendis? Quisquam, dolores nostrum voluptatum eligendi dolorem rem natus earum repudiandae eveniet consequuntur?
+         </div>
+     </div> 
+
+     <div class="accordionBx">
+        <div class="label ">List Four </div>
+         <div class="content">
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+         </div>
+     </div>
+
+
+
+
+
+
+
+
+
+ <script>
+    const accordion = document.getElementsByClassName(`accordionBx`);
+
+    for (let i = 0; i < accordion.length; i++) {
+        accordion[i].addEventListener(`click`, function(){
+            this.classList.toggle('active')
+        });
+        
+    }
+</script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+</body>
+</html>
